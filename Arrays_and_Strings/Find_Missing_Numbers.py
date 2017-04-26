@@ -23,3 +23,4 @@ class Solution(object):
 WITHOUT EXTRA SPACE
 '''
     def findNumbers(self, nums):
+    	return

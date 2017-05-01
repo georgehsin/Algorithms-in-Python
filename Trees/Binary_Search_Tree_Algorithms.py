@@ -3,7 +3,7 @@ class TreeNode(object):
         self.val = x
         self.left = None
         self.right = None
-        
+
 # Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.
 # Calling next() will return the next smallest number in the BST.
 
@@ -37,6 +37,7 @@ class BSTIterator(object):
         self.iterate(root.right)
         self.stack.append(root.val)
         self.iterate(root.left)
+
 
 class Solution(object):
     def getMinimumDifference(self, root):
